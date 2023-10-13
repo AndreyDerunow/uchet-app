@@ -14,11 +14,11 @@ app.use(cors());
 app.use("/api", routes);
 const PORT = config.get("PORT") ?? 8080;
 
-app.use("/", express.static(path.join(__dirname, "client")));
-const indexPath = path.join(__dirname, "client", "index.html");
-app.get("*", (req, res) => {
-    res.sendFile(indexPath);
-});
+// app.use("/", express.static(path.join(__dirname, "client")));
+// const indexPath = path.join(__dirname, "client", "index.html");
+// app.get("*", (req, res) => {
+//     res.sendFile(indexPath);
+// });
 
 async function start() {
     try {

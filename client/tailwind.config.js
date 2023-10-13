@@ -9,7 +9,7 @@ const BUTTON_BOTTOM = "#9F3ED5";
 const colors = require("tailwindcss/colors");
 
 module.exports = {
-    content: ["./src/**/*.{js,jsx}"],
+    content: ["./src/**/*.{js,jsx,ts,tsx}"],
 
     theme: {
         colors: {

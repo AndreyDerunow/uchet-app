@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "preserveConstEnums": true,
+        "target": "ES6",
+        "module": "ES2022",
+        "moduleResolution": "Bundler",
+        "allowSyntheticDefaultImports": true,
+        "alwaysStrict": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowJs": true,
+        "resolveJsonModule": true,
+        "strict": true,
+        "jsx": "react",
+        "lib": ["DOM", "ES2021.String"]
+    },
+    "include": ["./src"],
+    "exclude": [
+        "node_modules",
+        "./src/**/*.spec.ts",
+        "./src/App.test.js",
+        "./src/app/fakeapi"
+    ]
+}
